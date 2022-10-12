@@ -4,3 +4,6 @@ Pythonprogrammering för statisk dataanalys och maskininlärning
 
 test
 test tommy
+
+
+test
