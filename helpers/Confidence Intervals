@@ -1,0 +1,12 @@
+Confidence Intervals
+
+t_crit = np.abs(t.ppf((1-confidence)/2,dof))
+Now, we can apply the original formula to calculate the 95% confidence interval.
+
+(m-s*t_crit/np.sqrt(len(x)), m+s*t_crit/np.sqrt(len(x))) 
+# (-0.14017768797464097, 0.259793719043611)
+
+https://towardsdatascience.com/how-to-calculate-confidence-intervals-in-python-a8625a48e62b
+
+
+https://www.statology.org/confidence-intervals-python/
